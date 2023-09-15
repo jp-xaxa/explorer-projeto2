@@ -27,10 +27,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Treine.me é um projeto que tem como objetivo ensinar os fundamentos essenciais de HTML e CSS. Além disso, concentramos nossos esforços em garantir que o código seja desenvolvido de maneira semanticamente correta.
 
-- [Acesse o projeto finalizado, online](https://jp-xaxa.github.io/)
+- [Acesse o projeto finalizado, online](https://jp-xaxa.github.io/explorer-projeto2/)
 
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/J9BvgGPgDyQ7BoLuVaFnJa/Explorer---Projeto-02-(Copy)?type=design&node-id=1-5&mode=design&t=4xs87F2joacEO8Tc-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-<img alt="Projeto final" src="./midias/layout.png" width="100%">
+<img alt="Layout Figma" src="./midias/layout.png" width="100%">
