@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+
+  font-family: "Open Sans", sans-serif;
+
+  background: linear-gradient(
+    180deg,
+    rgba(277, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+
+  min-height: 100vh;
+}
+
+#page {
+  max-width: 1008px;
+  margin: auto;
+  padding-top: 65px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 0 58px;
+
+  font-size: 18px;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  padding: 0;
+}
+
+ul a {
+  text-decoration: none;
+  color: #1f1534;
+  opacity: 0.5;
+}
+
+li.active,
+li:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section {
+  max-width: 50%;
+}
+
+section h1 {
+  font-family: "Mulish", sans-serif;
+  font-size: 49px;
+  font-weight: normal;
+  line-height: 56px;
+
+  color: black;
+
+  margin-bottom: 40px;
+}
+
+section h1 span {
+  color: #89c5cc;
+}
+
+section p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+}
+
+section button {
+  display: flex;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  background: #69b99d;
+  color: #f9f9f9;
+
+  padding: 14px 32px 15px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 4px;
+  gap: 10px;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+section button ion-icon {
+  font-size: 24px;
+}
+
+section button:hover {
+  background: #69b99d;
+  box-shadow: 0 0 2px #69b99d;
+  filter: saturate(200%);
+  transform: scale(1.01);
+}
+
+footer {
+  text-align: center;
+  margin: 82.36px auto 30px;
+
+  font-size: 14px;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
